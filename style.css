@@ -1,0 +1,124 @@
+@import "./node_modules/normalize.css/normalize.css";
+
+main {
+  margin: auto;
+  width: 40%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.ideas-todo {
+  margin-top: 10%;
+}
+
+.ideas-todo-blocks,
+.ideas-list-blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block {
+  border: 1px solid;
+  width: 20%;
+}
+
+.block > p {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.block > h4 {
+  margin: 0;
+  padding: 3px;
+  text-align: center;
+}
+
+.block > hr {
+  margin: 0;
+}
+
+hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.arrow {
+  width: 35px;
+  cursor: pointer;
+}
+
+.arrowL {
+  transform: scale(-1);
+}
+
+.ideas-list-amount {
+  text-align: center;
+}
+
+.ideas-achivements {
+  text-align: center;
+  padding: 20px;
+}
+
+.ideas-achivements-circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.ideas-achivements-cirlce-block > h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.circle > span {
+  font-size: 20px;
+}
+
+.ideas-comleted-table {
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border: 1px solid;
+  width: 100%;
+  border-spacing: 0;
+}
+
+td {
+  padding: 10px 15px;
+}
+
+.propetries {
+  text-align: left;
+}
+
+.numbering {
+  border-right: 2px solid;
+  padding: 0;
+  text-align: center;
+}
+.propetries > th {
+  padding-left: 20px;
+  border-bottom: 2px solid;
+}
