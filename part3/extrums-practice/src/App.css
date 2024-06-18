@@ -46,6 +46,7 @@ h2 {
   width: 20%;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .block > p {
   margin: 0;
@@ -144,10 +145,6 @@ th {
 .propetries > th {
   border-bottom: 2px solid #1b263b;
   text-align: center;
-}
-
-.ideas-todo-block {
-  cursor: pointer;
 }
 
 .empty-massage {
